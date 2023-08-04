@@ -2,7 +2,10 @@ import { Injectable } from '@angular/core';
 import { HttpClient } from '@angular/common/http';
 import { Observable } from 'rxjs';
 import { Category } from '../models/category.model';
-const baseUrl = 'http://localhost:8080/api/categories';
+
+//const baseUrl = 'http://localhost:8080/api/categories';
+const baseUrl = 'https://sportstore.onrender.com/api/categories';
+
 @Injectable({
 providedIn: 'root'
 })

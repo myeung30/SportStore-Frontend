@@ -6,8 +6,8 @@ import { Observable } from 'rxjs';
 
  
 
-const API_URL = 'http://localhost:8080/api/test/';
-
+//const API_URL = 'http://localhost:8080/api/test/';
+const API_URL = 'https://sportstore.onrender.com/api/test/';
  
 
 @Injectable({
